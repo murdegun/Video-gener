@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f73a6622540ab8d7b647c8dd005f340b27769aaa1262672f692ae3cbe09cc6d2
-size 1254
+# Анимации Binance Motion Pack
+
+В этой папке лежат готовые ролики для скачивания по отдельности. Всего 49 видеофайлов, общий объём около 0.82 GiB. Все исходные видеорендеры хранятся в Git LFS.
+
+- `scenes/` — 8 сцен, для каждой есть вариант со звуком и без звука.
+- `transitions/` — 6 переходов; рядом лежат звуковые и тихие версии. В `masks/` находятся анимированные монтажные маски, в `alpha/` — прозрачные слои ProRes 4444.
+- `intro_outro/` — заставка 0NIX, переход к рекламе 0nixLearn и закрывающая заставка; есть версии со звуком и без.
+- `final/ALL_SCENES_PREVIEW.mp4` — обзор всех 17 основных анимаций подряд, 105 секунд.
+
+Откройте нужный файл на GitHub и выберите **Download**. Для скачивания всех файлов с Git LFS:
+
+```sh
+git lfs install
+git clone https://github.com/murdegun/Video-gener.git
+cd Video-gener
+git lfs pull
+```
